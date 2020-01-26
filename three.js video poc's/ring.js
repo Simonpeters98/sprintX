@@ -14,8 +14,8 @@ function init(){
 
     document.body.appendChild(renderer.domElement);
 
-    const geometry = new THREE.BoxGeometry(2, 2, 2); //lengte, breedte, hoogte van cube
-    const material = new THREE.MeshBasicMaterial({ color: 0x0000ff }); //Kleur van de mesh
+    const geometry = new THREE.RingGeometry(1, 1.1, 32); //lengte, breedte, hoogte van cube
+    const material = new THREE.MeshBasicMaterial({ color: 0xFF9A2F }); //Kleur van de mesh
 
     //const texture = new THREE.TextureLoader().load('texture/Column.jpg');
     //const material = new THREE.MeshBasicMaterial({ map: texture });

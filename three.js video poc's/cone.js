@@ -14,7 +14,7 @@ function init(){
 
     document.body.appendChild(renderer.domElement);
 
-    const geometry = new THREE.BoxGeometry(2, 2, 2); //lengte, breedte, hoogte van cube
+    const geometry = new THREE.ConeGeometry(0.5, 5, 3); //lengte, breedte, hoogte van cube
     const material = new THREE.MeshBasicMaterial({ color: 0x0000ff }); //Kleur van de mesh
 
     //const texture = new THREE.TextureLoader().load('texture/Column.jpg');
